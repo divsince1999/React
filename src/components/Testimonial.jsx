@@ -3,27 +3,29 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { BiNavigation } from 'react-icons/bi';
+import profile from '../assets/profile.png';
+import Ratings from '../assets/Ratings.svg';
 
 const Testimonialdata = [
     {
         UserName: 'User1',
-        imgUrl: 'src/assets/profile.png',
+        imgUrl: profile,
         imgAlt: 'User1',
-        Ratings: 'src/assets/Ratings.svg',
+        Ratings: Ratings,
         desc: 'ex eius dicta autem cum quidem delectus! Non aperiam saepe earum quis velit molestias? Consequatur aspernatur, debitis deleniti quisquam nostrum eveniet quia quidem ipsum nulla ab vitae, omnis reiciendis temporibus est. Eligendi amet qui fuga tempore aliquid sint, culpa nulla, animi quae ea commodi, labore vel ullam repellendus repellat laudantium recusandae cumque itaque quas. Animi quasi quaerat tempora provident illo!',
     },
     {
         UserName: 'User2',
-        imgUrl: 'src/assets/profile.png',
+        imgUrl: profile,
         imgAlt: 'User2',
-        Ratings: 'src/assets/Ratings.svg',
+        Ratings: Ratings,
         desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto culpa consectetur nemo, numquam odit vero veniam tempora? Voluptatibus numquam, unde harum esse natus quae odio nesciunt nam impedit cumque quibusdam ex eius dicta autem cum quidem delectus!',
     },
     {
         UserName: 'User3',
-        imgUrl: 'src/assets/profile.png',
+        imgUrl: profile,
         imgAlt: 'User3',
-        Ratings: 'src/assets/Ratings.svg',
+        Ratings: Ratings,
         desc: 'utem cum quidem delectus! Non aperiam saepe earum quis velit molestias? Consequatur aspernatur, debitis deleniti quisquam nostrum eveniet quia quidem ipsum nulla ab vitae, omnis reiciendis temporibus est. Eligendi amet qui fuga tempore',
     }
 ]
