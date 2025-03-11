@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from './Button'
+import banner from '../assets/banner-img.png';
 
 const Hero = () => {
   const ButtonClicked = () => {
@@ -16,7 +17,7 @@ const Hero = () => {
             <Button onClick={ButtonClicked} isIconVisible={true} txt='Order Now' />
           </div>
           <div className='img-wrapper w-[59%]'>
-            <img src="src/assets/banner-img.png" className='banner-img' alt="banner" />
+            <img src={banner} className='banner-img' alt="banner" />
           </div>
         </div>
       </div>
