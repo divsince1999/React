@@ -3,6 +3,7 @@ import { FaTwitter } from "react-icons/fa";
 import { CiLinkedin } from "react-icons/ci";
 import { FaYoutube } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
+import logo from '../assets/site-logo.svg';
 
 const ListItem = [
     {
@@ -42,7 +43,7 @@ const Footer = () => {
             <div className='flex'>
                 <div className='w-[30%]'>
                     <div className='logo-block'>
-                        <a href="#"><img src="src/assets/site-logo.svg" className='h-[100px]' alt="site-logo" /></a>
+                        <a href="#"><img src={logo} className='h-[100px]' alt="site-logo" /></a>
                     </div>
                     <ul className='flex ft-social-links gap-6 mt-12'>
                         <li><a href="#"><FaTwitter/></a></li>
