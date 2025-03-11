@@ -1,6 +1,7 @@
 import React from 'react'
 import { IoCartOutline } from "react-icons/io5";
 import Button from './Button';
+import logo from '../assets/site-logo.svg';
 
 const Navigation = () => {
     return (
@@ -8,7 +9,7 @@ const Navigation = () => {
             <div className='container'>
                 <nav>
                     <div className='site-logo'>
-                        <a href="#"><img src="src/assets/site-logo.svg" alt="site-logo" /></a>
+                        <a href="#"><img src={logo} alt="site-logo" /></a>
                     </div>
                     <ul>
                         <li><a href="#">Home</a></li>
