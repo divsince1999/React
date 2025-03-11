@@ -1,23 +1,26 @@
 import React from 'react'
+import Pick_Meals from '../assets/Pick_Meals.svg';
+import Choose_How_Often from '../assets/Choose_How_Often.svg';
+import Fast_Deliveries from '../assets/Fast_Deliveries.svg';
 
 const Work = () => {
 
     const WorkCardData = [
         {
             title: 'Pick Meals',
-            imgUrl: 'src/assets/Pick_Meals.svg',
+            imgUrl: Pick_Meals,
             imgAlt: 'Card1',
             desc: 'Lorem ipsum dolor sit amet consectetur. Maecenas orci et sagittis duis elementum interdum facilisi bibendum.'
         },
         {
             title: 'Choose How Often',
-            imgUrl: 'src/assets/Choose_How_Often.svg',
+            imgUrl: Choose_How_Often,
             imgAlt: 'Card2',
             desc: 'Lorem ipsum dolor sit amet consectetur. Maecenas orci et',
         },
         {
             title: 'Fast Deliveries',
-            imgUrl: 'src/assets/Fast_Deliveries.svg',
+            imgUrl: Fast_Deliveries,
             imgAlt: 'Card3',
             desc: 'Lorem ipsum dolor sit amet consectetur. Maecenas orci et lorem ipsum',
         },
